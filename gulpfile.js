@@ -7,6 +7,7 @@ var minimist = require('minimist');
 var del = require('del');
 var fs = require('fs');
 var rsync = require('gulp-rsync');
+var git = require('gulp-git');
 
 var knownOptions = {
   string: 'env',
@@ -14,13 +15,27 @@ var knownOptions = {
 };
 
 var options = minimist( process.argv.slice( 2 ), knownOptions );
-console.log( options );
+options.branch = undefined == options.branch ? 'develop' : options.branch;
+
 
 gulp.task( 'check', function() {
-	console.log( "Running on " + os.hostname() );
-	if( options.env == "production" ) {
-		fs.createReadStream('.env.prod').pipe( fs.createWriteStream('.env') );
-	}
+  console.log( "Running on " + os.hostname() );
+  console.log( options );
+  /*if( os.hostname != 'TRLIVEBUILDER' ) {
+    console.log( "NON SEI SULLA MACCHINA PONTE!");
+    return false;
+  }*/
+  
+  // if( options.env == "production" ) {
+  //  fs.createReadStream('.env.prod').pipe( fs.createWriteStream('.env') );
+  // }
+});
+
+gulp.task('git-pull', function() {
+
+  git.pull('origin', options.branch, {}, function (err) {
+    if (err) throw err;
+  });
 });
 
 gulp.task( 'clean', ['check'], function () {
@@ -34,13 +49,12 @@ gulp.task( 'cssmin', ['clean'], function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('deploy', function() {
+gulp.task('sync', function() {
 
   var file = fs.readFileSync('rsync-excludelist', "utf8");
   var arr = file.split("\n");
-  arr = arr.map(function (val) { return '!' + val; });
 
-  gulp.src(process.cwd())
+  gulp.src( process.cwd() )
     .pipe( rsync( {
       recursive: true,
       destination: '../rsync-test/suncharts',
@@ -51,4 +65,6 @@ gulp.task('deploy', function() {
 
 });
 
-gulp.task( 'compile', [ 'check', 'clean', 'cssmin', 'deploy' ] );
+gulp.task( 'pull', [ 'git-pull' ] );
+gulp.task( 'compile', [ 'check', 'clean', 'cssmin' ] );
+gulp.task( 'deploy', [ 'check', 'clean', 'cssmin', 'sync' ] );

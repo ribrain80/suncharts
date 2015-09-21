@@ -2,7 +2,6 @@ node_modules/
 logs/
 .env.*
 .gitignore
-Gruntfile.js
 composer.*
 package.json
 phpunit.xml
