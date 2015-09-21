@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Suncharts Conf. Page</title>
+	<script src="js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<select id="y"></select>
+	<script>
+
+	(function() {
+		var now = new Date();
+		var yList = [];
+		var fully = now.getFullYear();
+		var till = fully - 5;
+		for( var i = fully, i > till; i++ ) {
+			$( "#y" ).append( "<option value='"+ i + "'>" + i + "</option>" );
+		}
+	});
+
+	</script>
+</body>
+</html>

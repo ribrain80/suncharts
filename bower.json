@@ -1,0 +1,16 @@
+{
+  "name": "suncharts",
+  "version": "0.0.0",
+  "authors": [
+    "RiBrain - Riccardo Brambilla <ext.riccardo.brambilla@ilsole24ore.com>"
+  ],
+  "description": "Sunchemical charts factory",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

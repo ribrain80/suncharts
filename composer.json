@@ -1,0 +1,23 @@
+{
+    "name": "sunchemical/suncharts",
+    "description": "internal working efforts charts generator",
+    "type": "api",
+    "require": {
+        "szymach/c-pchart": "^1.1",
+        "adodb/adodb-php": "^5.19",
+        "altorouter/altorouter": "^1.1",
+        "phpmailer/phpmailer": "^5.2",
+        "tecnick.com/tcpdf": "^6.2",
+        "monolog/monolog": "^1.15"
+    },
+
+    "autoload": {
+        "psr-4": { "Sunchemical\\Suncharts\\": "classes/Sunchemical/Suncharts" }
+    },
+    "authors": [
+        {
+            "name": "RiBrain - Riccardo Brambilla",
+            "email": "riccardobra@gmail.com"
+        }
+    ]
+}

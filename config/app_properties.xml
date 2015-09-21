@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<properties>
+
+	<!-- App version -->
+	<property name="__app_version" value="1.0" />	
+	
+	<!-- App base data -->
+	<property name="baseUrl" value="" />
+	<property name="basePath" value="" />
+	
+	<!-- App Environment -->
+	<property name="env" value="" />
+	
+	<!-- DB -->
+	<property name="dbhost" value="" />
+	<property name="dbname" value="" />
+	<property name="dbusername" value="" />
+	<property name="dbpassword" value="" />
+
+	<!-- SMTP -->
+	<property name="smtphost" value="" />
+	<property name="smtpport" value="" />
+	<property name="smtpuser" value="" />
+	<property name="smtppwd"  value="" />
+	
+	<!-- Hosts list, if port is not 80 remember to put it in the host value ie: host:8080  -->
+	<property type="host" name="local" value="suncharts.it" />
+	<property type="host" name="pro" value="10.32.5.37" />
+
+</properties>

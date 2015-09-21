@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+	<title>Suncharts Conf. Page</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,300italic,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/suncharts.css" />
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+	
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-default navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">Sunchemical Reports Charts</a>
+			</div>
+		</div>
+	</nav>	
+
+	<div class="container">
+
+		<div class="panel panel-default">
+
+			<div class="panel-heading">
+				<h3 class="panel-title">By Customer Chart</h3>
+		  	</div>
+
+		  	<div class="panel-body">
+
+				<div class="form-group col-centered customerG">
+
+					<div class="row">
+						<label>Anno</label>
+						<select class="form-control y" id="customer_y"></select>
+					</div>
+
+					<div class="row">
+						<label>Tipologia</label>
+						<select id="customer_oTypeID" class="form-control oTypeID">
+							<option value='1'>Customer</option>
+							<option value='2'>Vendor</option>
+						</select>
+					</div>
+
+					<div class="row customerRow">
+						<label>Customer ID</label>
+						<select class="form-control customerID" id="customer_oID">
+							<option value='All'>All</option>
+						</select>	
+					</div>	
+
+					<div class="row vendorRow" style="display: none;">
+						<label>Vendor ID</label>
+						<select class="form-control vendorID" id="customer_vendorID">
+							<option value='All'>All</option>
+						</select>	
+					</div>					
+
+					<div class="row">
+						<label>Country ID</label>
+						<input class="form-control countryID" id="customer_countryID" type="text" value="IT" disabled='disabled'/>	
+					</div>						
+
+				</div>	    
+	  		</div>
+		</div>
+	</div>
+	
+	<div class="container">
+
+		<div class="panel panel-default">
+
+			<div class="panel-heading">
+				<h3 class="panel-title">By Technician Chart</h3>
+			</div>
+
+			<div class="panel-body">
+
+				<div class="input-group col-centered technicianG">
+
+					<div class="row">
+						<label>Anno</label>
+						<select class="form-control y" id="technician_y"></select>
+					</div>
+
+					<div class="row">
+						<label>Tecnico</label>
+						<select class="form-control technician" id="technician_technicianID">
+							<option value='All'>All</option>
+						</select>	
+					</div>	
+
+					<div class="row">
+						<label>Country ID</label>
+						<input class="form-control countryID" id="technician_countryID" type="text" value="IT" disabled='disabled'/>	
+					</div>		
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+		<div class="panel panel-default">
+
+		 	<div class="panel-heading">
+				<h3 class="panel-title">By Month Chart</h3>
+			</div>
+
+		  	<div class="panel-body">
+				<div class="input-group col-centered monthG">
+
+					<div class="row">
+						<label>Anno</label>
+						<select class="form-control y" id="month_y"></select>
+					</div>
+
+					<div class="row">
+						<label>Mese</label>
+						<select class="form-control m" id="month_m">
+							<option value='1'>1</option>
+							<option value='2'>2</option>
+							<option value='3'>3</option>
+							<option value='4'>4</option>
+							<option value='5'>5</option>
+							<option value='6'>6</option>
+							<option value='7'>7</option>
+							<option value='8'>8</option>
+							<option value='9'>9</option>
+							<option value='10'>10</option>
+							<option value='11'>11</option>
+							<option value='12'>12</option>
+						</select>
+					</div>	
+
+					<div class="row">
+						<label>Country ID</label>
+						<input class="form-control countryID" id="month_countryID" type="text" value="IT" disabled='disabled'/>	
+					</div>	
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+
+		<div class="panel panel-default">
+
+			<div class="panel-heading">
+			 	<h3 class="panel-title">Mail recipients</h3>
+			</div>
+
+			<div class="panel-body">
+
+				<div class="input-group col-centered recipientsG">
+					<textarea id="recipients"></textarea>
+				</div>
+				
+				<br />
+				<div class="row" style="text-align: center; margin-bottom: 50px;">
+					<button id="sender" class="btn btn-info">Invia la mail con i grafici</button>	
+				</div>
+
+			</div>	
+		</div>
+	</div>
+
+	<div class="modal fade" data-backdrop="static" id="loadingModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title">Caricamento dei dati in corso</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Attendere prego</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" data-backdrop="static" id="errorModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header warningmodal">
+	        <h4 class="modal-title">Errore</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Impossibile caricare i dati</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" data-backdrop="static" id="okModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header okmodal">
+	        <h4 class="modal-title">Mail spedite</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Il processo è andato a buon fine</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+	      </div>	      
+	    </div>
+	  </div>
+	</div>
+	
+	<script>
+
+	// # Self-scoped function
+	( function( $ ) {
+
+		"use strict";// # strict mode
+
+		// # Processing message modal
+		$( '#loadingModal' ).modal();
+
+		// # Years select 
+		var now = new Date();
+		var fully = now.getFullYear();
+		var till = fully - 10;
+		var yHTML = "";
+		for( var i = fully; i > till; i-- ) {
+			yHTML += "<option value='"+ i + "'>" + i + "</option>";
+		}
+		$( ".y" ).append( yHTML );
+
+		// # Origin type binding
+		$( "#oTypeID" ).on( "change", function() {
+
+			var value = $( this ).val();
+			switch( value ) {
+
+				case 1:
+					$( ".customerRow" ).show();
+					$( ".vendorRow" ).hide();				
+					break;
+				case 2:
+					$( ".customerRow" ).hide();
+					$( ".vendorRow" ).show();				
+					break;
+			}
+		});	
+
+		// # Page needs data from server for select population
+		var oidCustomer = $.getJSON( "oidCustomer" );
+		var oidVendor   = $.getJSON( "oidVendor" );
+		var recipients  = $.getJSON( "recipients" );
+		var technicians = $.getJSON( "technicians" );
+
+		// # Whenever they're all resolved
+		var aggregatePromise = $.when( oidCustomer, oidVendor, technicians, recipients );
+		aggregatePromise.done( function( oidCustomerResponse, oidVendorResponse, techniciansResponse, recipientsResponse) {
+
+			// # Populate techincians select
+			$.each( techniciansResponse.data, function( i, item ) {
+				$( ".technician" ).append( "<option value='"+ item.UserId + "'>" + item.UserId + "</option>" );	
+			});	
+
+			// # Populate customers select
+			$.each( oidCustomerResponse.data, function( i, item ) {
+				$( ".customerID" ).append( "<option value='"+ item.UserId + "'>" + item.UserId + "</option>" );	
+			});	
+
+			// # Populate vendors select
+			$.each( oidVendorResponse.data, function( i, item ) {
+				$( ".vendorID" ).append( "<option value='"+ item.UserId + "'>" + item.UserId + "</option>" );	
+			});				
+
+			// # Populate recipients textarea
+			$( "#recipients" ).text( recipientsResponse );
+
+			// # Main button binding
+			$( "#sender" ).on( "click", function() {
+
+				// # Dinamically get params from the DOM inputs
+				var params = {};
+				$.each( $( ":input" ).not( "button" ), function( i, item ) {
+					var key = item.id;
+					params[ key ] = $( item ).val();
+				});
+
+				console.log( params );
+
+
+				// # Post data to route
+				var pushPromise = $.post( "manual-push", params );
+
+				// # fail
+				pushPromise.fail( function( error ) {
+					$( '#errorModal' ).modal( { backdrop: 'static', keyboard: false } );
+				});
+
+				// # success
+				pushPromise.done( function( json ) {
+					$( '#okModal' ).modal( { backdrop: 'static', keyboard: false } );
+				});
+			});			
+
+		});
+		
+		// # Aggregate fail
+		aggregatePromise.fail( function( error ) {
+			$( '#errorModal' ).modal( { backdrop: 'static', keyboard: false } );
+			//$( "#sender" ).attr( "disabled", "disabled" );
+		});
+
+		// # Aggregate success
+		aggregatePromise.always( function() {
+			$('#loadingModal').modal( 'hide' );
+		});
+
+	})( jQuery );
+	</script>
+</body>

@@ -1,0 +1,1272 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inner",
+				"innerHeight	.innerHeight()"
+			],
+			[
+				"unli",
+				"unlinked"
+			],
+			[
+				"Chart",
+				"ChartsBuilder"
+			],
+			[
+				"construct",
+				"__construct"
+			],
+			[
+				"xml",
+				"xmlConf"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"view",
+				"$viewData〔variable〕"
+			],
+			[
+				"epo",
+				"$episodesListData〔variable〕"
+			],
+			[
+				"common",
+				"commonPuntata"
+			],
+			[
+				"cont",
+				"contenuto"
+			],
+			[
+				"is_n",
+				"is_null〔function〕"
+			],
+			[
+				"show",
+				"showsDictionary"
+			],
+			[
+				"programmi",
+				"$programmiList〔variable〕"
+			],
+			[
+				"ob",
+				"observable"
+			],
+			[
+				"no",
+				"nowrap〔value〕"
+			],
+			[
+				"slug",
+				"$slugKey〔variable〕"
+			],
+			[
+				"item",
+				"$itemsSize〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/radio24/radio24/app/views/eventi/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2304,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/source/js/js_page/palinsesto.js",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/app/routes.php",
+			"settings":
+			{
+				"buffer_size": 15294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/app/controllers/EventiController.php",
+			"settings":
+			{
+				"buffer_size": 864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "mail",
+			"settings":
+			{
+				"buffer_size": 4,
+				"line_ending": "Unix",
+				"name": "mail"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/source/js/js_page/traffico.js",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/app/views/traffico/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 2357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/radio24/radio24/source/crossdomain.xml",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/radio24/radio24/app/views/traffico/index.blade.php",
+		"/home/riccardo/projects/monicariccardo/vendor/phpspec/phpspec/src/PhpSpec/Event/EventInterface.php",
+		"/home/riccardo/projects/suncharts/classes/Sunchemical/Suncharts/Pdf/SunchemicalPdf.php",
+		"/home/riccardo/projects/suncharts/config/filters/pro.filter.properties.php",
+		"/home/riccardo/projects/suncharts/config/app_properties.xml",
+		"/home/riccardo/projects/suncharts/config/filters/local.filter.properties.php",
+		"/home/riccardo/projects/suncharts/classes/Sunchemical/Suncharts/Core/PropertyManager.php",
+		"/home/riccardo/projects/suncharts/index.php",
+		"/home/riccardo/projects/suncharts/classes/Sunchemical/Suncharts/Charts/ChartsBuilder.php",
+		"/home/riccardo/projects/suncharts/imagedata/mypic.png",
+		"/home/riccardo/projects/suncharts/worker/chartworker.php",
+		"/home/riccardo/projects/suncharts/vendor/szymach/c-pchart/src/Services/pChartFactory.php",
+		"/var/www/radio24/radio24/app/routes.php",
+		"/var/www/radio24/radio24/app/config/app.php",
+		"/var/www/radio24/radio24/app/models/CronProgrammi.php",
+		"/var/www/radio24/radio24/Gruntfile.js",
+		"/home/riccardo/projects/monicariccardo/Gruntfile.js",
+		"/home/riccardo/projects/monicariccardo/resources/views/master.blade.php",
+		"/home/riccardo/projects/monicariccardo/resources/assets/css/main.css",
+		"/home/riccardo/projects/monicariccardo/public/css/main.css",
+		"/home/riccardo/projects/monicariccardo/package.json",
+		"/home/riccardo/projects/monicariccardo/resources/assets/fonts/swsw",
+		"/var/www/radio24/radio24/feed/methode/contents/programmi-all.xml",
+		"/var/www/radio24/radio24/app/config/local/session.php",
+		"/var/www/radio24/radio24/app/config/session.php",
+		"/home/riccardo/projects/monicariccardo/app/Http/routes.php",
+		"/home/riccardo/projects/monicariccardo/resources/views/welcome.blade.php",
+		"/var/www/radio24/radio24/app/controllers/TestAdvController.php",
+		"/home/riccardo/projects/monicariccardo/resources/master.blade.php",
+		"/var/www/radio24/radio24/feed/methode/contents/programmi.xml",
+		"/var/www/radio24/radio24/app/controllers/ProgrammaController.php",
+		"/var/www/radio24/radio24/app/views/programmi/top.blade.php",
+		"/var/www/knockout_learn/index.html",
+		"/var/www/radio24/radio24/app/config/s24.php",
+		"/var/www/radio24/radio24/app/storage/programs/programmi/24mattino.xml",
+		"/var/www/radio24/radio24/app/controllers/NewsController.php",
+		"/var/www/radio24/radio24/app/views/master.blade.php",
+		"/var/www/radio24/radio24/app/views/notizie/scheda.blade.php",
+		"/var/www/radio24/radio24/app/views/programmi/extraleaf.blade.php",
+		"/var/www/radio24/radio24/app/views/programmi/puntata.blade.php",
+		"/var/www/radio24/radio24/source/js/ko_model/ko.basemodel.js",
+		"/var/www/radio24/radio24/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DataCollector/DataCollector.php",
+		"/var/www/radio24/radio24/app/models/Contenuti.php",
+		"/var/www/radio24/radio24/app/models/Puntate.php",
+		"/var/www/radio24/radio24/app/views/partials/boxspalla/iniziative.blade.php",
+		"/var/www/radio24/radio24/app/models/News.php",
+		"/var/www/radio24/radio24/feed/methode/xml/gSLAreQh7.xml",
+		"/var/www/radio24/radio24/feed/methode/contents/spalle/programmi/cuoridenari.xml",
+		"/var/www/radio24/radio24/app/controllers/ConduttoriController.php",
+		"/var/www/radio24/radio24/app/models/Spalle.php",
+		"/var/www/radio24/radio24/app/models/CronBlog.php",
+		"/var/www/radio24/radio24/source/js/ko_model/ko.ricerca.js",
+		"/var/www/radio24/radio24/source/js/ko_model/ko.blogmodel.js",
+		"/var/www/radio24/radio24/app/controllers/RemoveCacheController.php",
+		"/var/www/radio24/radio24/app/models/CronPodcast.php",
+		"/var/www/radio24/radio24/app/controllers/GenericController.php",
+		"/var/www/radio24/radio24/app/controllers/CentoSecondiController.php",
+		"/var/www/radio24/radio24/app/views/centosecondi/index.blade.php",
+		"/var/www/radio24/radio24/app/models/BaseModels.php",
+		"/var/www/radio24/radio24/app/controllers/HomeController.php",
+		"/var/www/radio24/radio24/feed/methode/xml/gSLAGjpb6.xml",
+		"/var/www/radio24/radio24/app/views/admin/index.blade.php",
+		"/var/www/radio24/radio24/source/js/admin/ko.admincache.js",
+		"/var/www/radio24/radio24/app/controllers/ApiController.php",
+		"/var/www/radio24/radio24/app/controllers/AdminController.php",
+		"/var/www/radio24/radio24/app/controllers/PodcastController.php",
+		"/var/www/radio24/radio24/app/views/palinsesto/index.blade.php",
+		"/var/www/radio24/radio24/app/views/archivio/index.blade.php",
+		"/var/www/radio24/radio24/app/views/podcast/lista.blade.php",
+		"/var/www/radio24/radio24/app/views/notizie/lista.blade.php",
+		"/var/www/radio24/radio24/app/views/blog.blade.php",
+		"/var/www/radio24/radio24/app/views/404.blade.php",
+		"/var/www/radio24/radio24/app/core/helpers/ServiceResponse.php",
+		"/var/www/radio24/radio24/.ftppass",
+		"/var/www/radio24/radio24/feed/methode/contents/home.xml",
+		"/var/www/radio24/radio24/app/views/home.blade.php",
+		"/var/www/radio24/radio24/app/models/HomeContent.php",
+		"/var/www/radio24/radio24/app/views/home/box_iniziative_top.blade.php",
+		"/var/www/radio24/radio24/app/views/home/box_iniziative_bottom.blade.php",
+		"/var/www/radio24/radio24/app/models/Podcast.php",
+		"/var/www/radio24/radio24/app/views/home/box_iniziative.blade.php",
+		"/var/www/radio24/radio24/app/views/home/evidenza.blade.php",
+		"/var/www/radio24/radio24/app/views/home/box_iniziative_due.blade.php",
+		"/var/www/radio24/radio24/app/config/staging/session.php",
+		"/var/www/radio24/radio24/app/views/partials/edizione.blade.php",
+		"/var/www/radio24/radio24/source/sass/02-molecules/_rigo.scss",
+		"/var/www/radio24/radio24/app/views/programmi/scheda.blade.php",
+		"/var/www/radio24/radio24/app/views/partials/box_spalla.blade.php",
+		"/var/www/radio24/radio24/source/css/dsm/style.css",
+		"/var/www/radio24/radio24/source/sass/style.scss",
+		"/var/www/radio24/radio24/bootstrap/start.php",
+		"/var/www/radio24/radio24/app/start/global.php",
+		"/var/www/radio24/radio24/app/database/seeds/AdminUsersTableSeeder.php",
+		"/var/www/radio24/radio24/composer.json",
+		"/var/www/radio24/radio24/app/config/database.php",
+		"/var/www/radio24/radio24/app/config/cache.php",
+		"/var/www/radio24/radio24/app/core/helpers/CurlHandler.php",
+		"/var/www/radio24/radio24/app/controllers/ConvertController.php",
+		"/var/www/radio24/radio24/feed/methode/contents/rss/economia-in-pagine.xml",
+		"/var/www/radio24/radio24/app/models/ProgrammiStorage.php",
+		"/var/www/radio24/radio24/app/composers/SiteRootComposer.php",
+		"/var/www/radio24/radio24/feed/s24/blog/w2_spalla.xml",
+		"/var/www/radio24/radio24/node_modules/grunt-bower-task/node_modules/bower/node_modules/mout/string/removeNonASCII.js",
+		"/var/www/radio24/radio24/app/config/local/app.php",
+		"/var/www/radio24/radio24/source/js/ko_model/ko.extramodel.js",
+		"/var/www/radio24/radio24/app/views/programmi/extra.blade.php",
+		"/var/www/radio24/radio24/app/controllers/ArchivioController.php",
+		"/var/www/radio24/radio24/app/controllers/BaseControllers.php",
+		"/var/www/radio24/radio24/app/controllers/BlogController.php",
+		"/var/www/radio24/radio24/app/controllers/CronController.php",
+		"/var/www/radio24/radio24/app/controllers/FrequenzeController.php",
+		"/var/www/radio24/radio24/app/controllers/MobileController.php",
+		"/var/www/radio24/radio24/app/controllers/RicercaController.php",
+		"/var/www/radio24/radio24/app/controllers/SitemapController.php",
+		"/var/www/radio24/radio24/app/controllers/SocialController.php",
+		"/var/www/radio24/radio24/app/controllers/StaffController.php",
+		"/var/www/radio24/radio24/app/controllers/PalinsestoController.php",
+		"/var/www/radio24/radio24/app/controllers/ApiControllerInterface.php",
+		"/var/www/radio24/radio24/app/config/compile.php",
+		"/var/www/radio24/radio24/app/models/FacebookPost.php",
+		"/var/www/radio24/radio24/app/models/BaseMedia.php",
+		"/var/www/radio24/radio24/app/models/BaseData.php",
+		"/var/www/radio24/radio24/app/models/APostSocial.php",
+		"/var/www/radio24/radio24/app/macros.php",
+		"/var/www/radio24/radio24/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/var/www/radio24/radio24/app/views/programmi/blog.blade.php",
+		"/var/www/radio24/radio24/feed/methode/contents/rss/articoli.xml",
+		"/var/www/radio24/radio24/app/core/helpers/RouteHandler.php"
+	],
+	"find":
+	{
+		"height": 102.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/radio24/radio24",
+			"/var/www/radio24/radio24/app/controllers",
+			"/var/www/radio24/radio24/app/models",
+			"/var/www/radio24/radio24"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eventi",
+			"mWidth",
+			"gma",
+			"	// $CB->buildChart();\n\n	// // // # Create new PDF document\n	// $pdf = new SunchemicalPdf( PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false );\n	// $pdf->init( $PM );	\n	// $pdf->out();",
+			"mail",
+			"	$mail",
+			"$mail",
+			"Mail",
+			"mail",
+			"	$mail",
+			"$mail",
+			"$factory",
+			"smtphost",
+			"git",
+			"resources/assets",
+			"images/overlay.png",
+			"images",
+			"overlay",
+			"images",
+			"print",
+			"echo",
+			"WorkbenchServiceProvider",
+			"provide",
+			"100-se",
+			"sottot",
+			"lab",
+			"labl",
+			"lable",
+			"lablemar",
+			"        \n",
+			"labelmarkup",
+			"programm",
+			"programmi.xml",
+			"button",
+			"24mattino",
+			"fade",
+			"afterRender",
+			"print_r",
+			"exit",
+			"24mattino",
+			"></",
+			"show",
+			"24mattino",
+			"sitepage",
+			"cache",
+			"sitepage",
+			"die",
+			"show",
+			"safe",
+			"safeque",
+			"sitePage",
+			"sitepage",
+			"buildepisode",
+			"sitepage",
+			"extra",
+			"buildNewsItem",
+			">\n",
+			"loc",
+			"lock",
+			"spall",
+			"spalleblo",
+			"objtomulti",
+			"objto",
+			"obj",
+			"['sitepage']",
+			"$adv['sitepage']",
+			"$adv",
+			"key",
+			"cache",
+			"baseurl",
+			"views",
+			"onair",
+			"getPaginatedEpisodesList",
+			"getPaginatedEpisodes",
+			"buildEpisodesList",
+			"show",
+			"print_r",
+			"buildCommonPuntata",
+			"buildcommon",
+			"buildCommonData",
+			"getPaginatedEpisodes",
+			"buildEpisodesList",
+			"buildepisode",
+			"buildespi",
+			"buildCommonPuntata",
+			"buildepiso",
+			"getEpisode",
+			"f",
+			"fe",
+			"fee",
+			"feedby",
+			"www.radio24.it/test/[",
+			"www.radio24.it/test/",
+			"home.box_iniziative_top",
+			"home.box_iniziative",
+			"box_iniziative_top",
+			"blog",
+			"cache",
+			"rig",
+			"rigo__",
+			"rigo",
+			"rigo__",
+			"rigo__program",
+			"ultimaEdizione__item",
+			"News in diretta",
+			"cache",
+			"podcast",
+			"Domdocu",
+			"feed",
+			"new.radio",
+			"\";\n",
+			"wordpress",
+			"*/\n",
+			"microtime",
+			"$start",
+			"$end",
+			"$start",
+			"$end",
+			"puntate",
+			"programma",
+			"removeca",
+			"methode",
+			"curl",
+			"carbon",
+			"Carbon",
+			"new Carbon",
+			"Carbon",
+			"palinse"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/radio24/radio24/app/views/eventi/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 2304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1089,
+								1089
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/radio24/radio24/source/js/js_page/palinsesto.js",
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/radio24/radio24/app/routes.php",
+					"settings":
+					{
+						"buffer_size": 15294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3980,
+								3980
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1068.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/radio24/radio24/app/controllers/EventiController.php",
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 4,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mail",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/radio24/radio24/source/js/js_page/traffico.js",
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/radio24/radio24/app/views/traffico/index.blade.php",
+					"settings":
+					{
+						"buffer_size": 2357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/radio24/radio24/source/crossdomain.xml",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 242.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cross",
+				"radio24/source/crossdomain.xml"
+			],
+			[
+				"traffico",
+				"radio24/source/js/js_page/traffico.js"
+			],
+			[
+				"eventicontr",
+				"radio24/app/controllers/EventiController.php"
+			],
+			[
+				"routes",
+				"radio24/app/routes.php"
+			],
+			[
+				"palinsesto",
+				"radio24/source/js/js_page/palinsesto.js"
+			],
+			[
+				"eventi",
+				"monicariccardo/vendor/phpspec/phpspec/src/PhpSpec/Event/EventInterface.php"
+			],
+			[
+				"pchartsfact",
+				"suncharts/vendor/szymach/c-pchart/src/Services/pChartFactory.php"
+			],
+			[
+				"grunt",
+				"monicariccardo/Gruntfile.js"
+			],
+			[
+				"package",
+				"monicariccardo/package.json"
+			],
+			[
+				"gruntfile",
+				"radio24/Gruntfile.js"
+			],
+			[
+				"cronpro",
+				"radio24/app/models/CronProgrammi.php"
+			],
+			[
+				"programmi-all",
+				"radio24/feed/methode/contents/programmi-all.xml"
+			],
+			[
+				"testadv",
+				"radio24/app/controllers/TestAdvController.php"
+			],
+			[
+				"programmi-",
+				"feed/methode/contents/programmi-all.xml"
+			],
+			[
+				"programmacon",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"",
+				"feed/methode/contents/programmi.xml"
+			],
+			[
+				"cronprogra",
+				"app/models/CronProgrammi.php"
+			],
+			[
+				"programmi.xml",
+				"feed/methode/contents/programmi.xml"
+			],
+			[
+				"24mattino",
+				"app/storage/programs/programmi/24mattino.xml"
+			],
+			[
+				"s24",
+				"app/config/s24.php"
+			],
+			[
+				"scehda",
+				"vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DataCollector/DataCollector.php"
+			],
+			[
+				"ko.base",
+				"source/js/ko_model/ko.basemodel.js"
+			],
+			[
+				"conten",
+				"app/models/Contenuti.php"
+			],
+			[
+				"master",
+				"app/views/master.blade.php"
+			],
+			[
+				"newscontroll",
+				"app/controllers/NewsController.php"
+			],
+			[
+				"programmacontr",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"contenuti",
+				"app/models/Contenuti.php"
+			],
+			[
+				"puntat",
+				"app/models/Puntate.php"
+			],
+			[
+				"gslareq",
+				"feed/methode/xml/gSLAreQh7.xml"
+			],
+			[
+				"news",
+				"app/models/News.php"
+			],
+			[
+				"newcontr",
+				"app/controllers/NewsController.php"
+			],
+			[
+				"progra",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"generic",
+				"app/controllers/GenericController.php"
+			],
+			[
+				"ronpo",
+				"app/models/CronPodcast.php"
+			],
+			[
+				"removeca",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"ko.blo",
+				"source/js/ko_model/ko.blogmodel.js"
+			],
+			[
+				"ko.ricerca",
+				"source/js/ko_model/ko.ricerca.js"
+			],
+			[
+				"cronblo",
+				"app/models/CronBlog.php"
+			],
+			[
+				"spalle",
+				"app/models/Spalle.php"
+			],
+			[
+				"conduttoricon",
+				"app/controllers/ConduttoriController.php"
+			],
+			[
+				"puntate",
+				"app/models/Puntate.php"
+			],
+			[
+				"basemodels",
+				"app/models/BaseModels.php"
+			],
+			[
+				"cento",
+				"app/controllers/CentoSecondiController.php"
+			],
+			[
+				"newscontr",
+				"app/controllers/NewsController.php"
+			],
+			[
+				"programma",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"centose",
+				"app/controllers/CentoSecondiController.php"
+			],
+			[
+				"podcastcontr",
+				"app/controllers/PodcastController.php"
+			],
+			[
+				"remove",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"admincontr",
+				"app/controllers/AdminController.php"
+			],
+			[
+				"apicontr",
+				"app/controllers/ApiController.php"
+			],
+			[
+				"adminca",
+				"source/js/admin/ko.admincache.js"
+			],
+			[
+				"apicontroll",
+				"app/controllers/ApiController.php"
+			],
+			[
+				"contenut",
+				"app/models/Contenuti.php"
+			],
+			[
+				"blog.",
+				"app/views/blog.blade.php"
+			],
+			[
+				"podcast",
+				"app/models/Podcast.php"
+			],
+			[
+				"lista",
+				"app/views/podcast/lista.blade.php"
+			],
+			[
+				"basemo",
+				"app/models/BaseModels.php"
+			],
+			[
+				"homeconte",
+				"app/models/HomeContent.php"
+			],
+			[
+				"homecontr",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"box_",
+				"app/views/home/box_iniziative.blade.php"
+			],
+			[
+				"home.",
+				"app/views/home.blade.php"
+			],
+			[
+				"homecont",
+				"app/models/HomeContent.php"
+			],
+			[
+				"homecontrol",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"removecache",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"home",
+				"app/views/home.blade.php"
+			],
+			[
+				"admincon",
+				"app/controllers/AdminController.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"curlhand",
+				"app/core/helpers/CurlHandler.php"
+			],
+			[
+				"rem",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"programmacontro",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"homecon",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"databse",
+				"app/config/database.php"
+			],
+			[
+				"cronprogrammi",
+				"app/models/CronProgrammi.php"
+			],
+			[
+				"convertcon",
+				"app/controllers/ConvertController.php"
+			],
+			[
+				"programmaconre",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"programmist",
+				"app/models/ProgrammiStorage.php"
+			],
+			[
+				"newcontroll",
+				"app/controllers/NewsController.php"
+			],
+			[
+				"newcontro",
+				"app/controllers/NewsController.php"
+			],
+			[
+				"siteroot",
+				"app/composers/SiteRootComposer.php"
+			],
+			[
+				"remo",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"homeco",
+				"app/models/HomeContent.php"
+			],
+			[
+				"apicontroller",
+				"app/controllers/ApiController.php"
+			],
+			[
+				"removec",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"removecach",
+				"app/controllers/RemoveCacheController.php"
+			],
+			[
+				"cron",
+				"app/models/CronProgrammi.php"
+			],
+			[
+				"ko.ex",
+				"source/js/ko_model/ko.extramodel.js"
+			],
+			[
+				"hom",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"rpogrammi",
+				"app/models/CronProgrammi.php"
+			],
+			[
+				"programmistorag",
+				"app/models/ProgrammiStorage.php"
+			],
+			[
+				"palinse",
+				"app/controllers/PalinsestoController.php"
+			],
+			[
+				"basecontroll",
+				"app/controllers/BaseControllers.php"
+			],
+			[
+				"programm",
+				"app/controllers/ProgrammaController.php"
+			],
+			[
+				"cache.php",
+				"app/config/cache.php"
+			],
+			[
+				"programmistorage",
+				"app/models/ProgrammiStorage.php"
+			],
+			[
+				"session",
+				"app/config/session.php"
+			],
+			[
+				"cac",
+				"app/config/cache.php"
+			],
+			[
+				"carbon",
+				"vendor/nesbot/carbon/src/Carbon/Carbon.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"shoulder",
+				"app/views/partials/shoulder.blade.php"
+			],
+			[
+				"footer",
+				"app/views/blog/footer.blade.php"
+			],
+			[
+				"500.bl",
+				"app/views/500.blade.php"
+			],
+			[
+				"routehandl",
+				"app/core/helpers/RouteHandler.php"
+			],
+			[
+				"buildpa",
+				"vendor/nikic/php-parser/grammar/rebuildParser.php"
+			],
+			[
+				"blog.blade",
+				"app/views/blog.blade.php"
+			],
+			[
+				"routes.php",
+				"app/routes.php"
+			],
+			[
+				"ko.rice",
+				"source/js/ko_model/ko.ricerca.js"
+			],
+			[
+				"bufferhandler",
+				"vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php"
+			],
+			[
+				"logger",
+				"vendor/monolog/monolog/src/Monolog/Logger.php"
+			],
+			[
+				"abstractprocess",
+				"vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php"
+			],
+			[
+				"mailhandler",
+				"vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php"
+			],
+			[
+				"swiftmailer",
+				"vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php"
+			],
+			[
+				"htmlform",
+				"vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php"
+			],
+			[
+				"mail",
+				"app/config/mail.php"
+			],
+			[
+				"normalizeformatt",
+				"vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php"
+			],
+			[
+				"htmlforma",
+				"vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php"
+			],
+			[
+				"linefor",
+				"vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php"
+			],
+			[
+				"global",
+				"app/start/global.php"
+			],
+			[
+				"lineformatter",
+				"vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php"
+			],
+			[
+				"mail.php",
+				"app/config/mail.php"
+			],
+			[
+				"mailhelper",
+				"node_modules/grunt-bower-task/node_modules/bower/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js"
+			],
+			[
+				"asocial",
+				"app/models/ASocial.php"
+			],
+			[
+				"socialtr",
+				"app/models/SocialTwitter.php"
+			],
+			[
+				"menupro",
+				"app/views/partials/menuprogrammi.blade.php"
+			],
+			[
+				"chi",
+				"app/views/chisiamo.blade.php"
+			],
+			[
+				"blogpost",
+				"app/models/BlogPost.php"
+			],
+			[
+				"blogc",
+				"app/controllers/BlogController.php"
+			],
+			[
+				"ko.basemo",
+				"radio24/source/js/ko_model/ko.basemodel.js"
+			],
+			[
+				"topten",
+				"radio24/source/js/ko_model/ko.toptenmodel.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/radio24/radio24/radio24"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true
+}
