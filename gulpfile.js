@@ -8,37 +8,50 @@ var del = require('del');
 var fs = require('fs');
 var rsync = require('gulp-rsync');
 var git = require('gulp-git');
+var todo = require('gulp-todo');
 
 var knownOptions = {
   string: 'env',
   default: { env: process.env.NODE_ENV || 'production' }
 };
 
+var macchinaPonte = os.hostname() == 'riccardo-Latitude-E6430';
 var options = minimist( process.argv.slice( 2 ), knownOptions );
 options.branch = undefined == options.branch ? 'develop' : options.branch;
 
-
 gulp.task( 'check', function() {
+  
   console.log( "Running on " + os.hostname() );
   console.log( options );
-  /*if( os.hostname != 'TRLIVEBUILDER' ) {
+  if( !macchinaPonte ) {
     console.log( "NON SEI SULLA MACCHINA PONTE!");
     return false;
-  }*/
+  }
   
   // if( options.env == "production" ) {
   //  fs.createReadStream('.env.prod').pipe( fs.createWriteStream('.env') );
   // }
 });
 
-gulp.task('git-pull', function() {
+// generate a todo.md from your javascript files 
+// gulp.task('todo', function() {
+//     gulp.src('js/**/*.js')
+//         .pipe(todo())
+//         .pipe(gulp.dest('./')); // -> Will output a TODO.md with your todos 
+// });
+
+gulp.task( 'git', [ 'check' ], function() {
+
+  git.checkout( options.branch, function (err) {
+    if (err) throw err;
+  });
 
   git.pull('origin', options.branch, {}, function (err) {
     if (err) throw err;
   });
 });
 
-gulp.task( 'clean', ['check'], function () {
+gulp.task( 'clean', ['git'], function () {
   return del([ 'css/**/*']);
 });
 
@@ -49,7 +62,7 @@ gulp.task( 'cssmin', ['clean'], function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('sync', function() {
+gulp.task('sync', ['cssmin'], function() {
 
   var file = fs.readFileSync('rsync-excludelist', "utf8");
   var arr = file.split("\n");
@@ -65,6 +78,6 @@ gulp.task('sync', function() {
 
 });
 
-gulp.task( 'pull', [ 'git-pull' ] );
-gulp.task( 'compile', [ 'check', 'clean', 'cssmin' ] );
-gulp.task( 'deploy', [ 'check', 'clean', 'cssmin', 'sync' ] );
+gulp.task( 'pull', [ 'git' ] );
+gulp.task( 'compile', [ 'check', 'pull', 'clean', 'cssmin' ] );
+gulp.task( 'deploy', [ 'check', 'pull', 'clean', 'cssmin', 'sync' ] );

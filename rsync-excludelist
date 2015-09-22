@@ -7,4 +7,5 @@ package.json
 phpunit.xml
 readme.md
 rsync-excludelist
+gulpfile.js
 suncharts.sublime*
